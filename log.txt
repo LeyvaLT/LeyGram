@@ -1,0 +1,17 @@
+commit 5fe5f4356ab7fe3f0125ded2d16c4ff27d4231bc
+Author: Edgar Leyva <edgar.leyvat@gmail.com>
+Date:   Thu Jan 5 19:04:44 2017 -0600
+
+    commit remoto prueba
+
+commit 12ddf46da1a0bff3169fecd3c4298435b8c28768
+Author: LeyvaLT <LeyvaLT@users.noreply.github.com>
+Date:   Thu Jan 5 18:37:17 2017 -0600
+
+    readme creado
+
+commit 17d371ef1989ccaba585bb7a9be627a84eb1a56a
+Author: Edgar Leyva <edgar.leyvat@gmail.com>
+Date:   Thu Jan 5 18:21:25 2017 -0600
+
+    inicia proyecto
