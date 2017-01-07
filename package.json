@@ -1,0 +1,31 @@
+{
+  "name": "leygram",
+  "version": "0.1.0",
+  "description": "comparte tus fotos si eres estudiante del itlp",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeyvaLT/LeyGram.git"
+  },
+  "keywords": [
+    "practivas",
+    "javascrip",
+    "itlp"
+  ],
+  "author": "Edgar Esteban Leyva Torres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeyvaLT/LeyGram/issues"
+  },
+  "homepage": "https://github.com/LeyvaLT/LeyGram#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.8",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0"
+  }
+}
