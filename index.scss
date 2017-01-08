@@ -1,16 +1,11 @@
  $secondary-color: #125688;
 @import "node_modules/materialize-css/sass/materialize.scss";
 
-html{
-	padding: 0 auto;
-	margin: 0 auto;
-	border: 0 auto;
-}
 body{
-	background-image: url("img/background.png");
+	background:#fafafa;
 	font-family: 'Montserrat', sans-serif;
-	color:#125688;
-	width: 99%;
+	color:$secondary-color;
+	width: 98%;
 	margin: 0 auto;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -25,29 +20,28 @@ body{
 :-moz-placeholder { /* Firefox 18- */
   color: #737578;
 }
-#main-container{
-	
-	margin: 30px auto;
 
-}
 
 .iphone{
 	max-width: 100%;
 }
 .site-footer{
+	color:black;
 	text-transform: uppercase;
 	font-size: 12px;
 }
 .login-box,
 .signup-box{
-	background-color: rgba(255, 255, 255, 0.6);
-	border:1px solid rgba(255, 255, 255, 0.7);
+	background-color:white;
+	border:1px solid #edeeee;
 	border-radius: 6px;
 	padding: 10px 0;
 	text-align: center;
 }
-.signup-box .titulo{
+.titulo{
 	font-family: 'Oleo Script', cursive;
+	font-size: 42px;
+	color:$secondary-color !important;
 }
 .signup-form{
 	width: 70%;
@@ -65,5 +59,18 @@ body{
 	background-color: #2d6599;
 }
 .signup-form .btn.btn-signup{
-	background-color: #125688;
+	background-color: $secondary-color;
+}
+.header{
+	background-color:white;
+	color:$secondary-color;
+	box-shadow:none;
+	border-bottom:1px solid #edeeee;
+}
+.timeline{
+	padding:30px 0;
+	
+}
+.landing{
+	margin:30px auto;
 }
