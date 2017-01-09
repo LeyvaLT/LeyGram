@@ -1,6 +1,6 @@
 html
   head
-    link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script:700' rel='stylesheet')
     link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
     link(rel='stylesheet' href='app.css')
     link(rel='apple-touch-icon', sizes='57x57', href='/apple-icon-57x57.png')
@@ -23,10 +23,8 @@ html
     meta(charset='UTF-8')
     meta(name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no')
   body
+    section#header-container
     section#main-container
-    footer.site-footer
-      .container
-        .row
-          .col.s12.l3.push-l6.center-align
-            | © 2016 LeyGram
+    script(src='https://code.jquery.com/jquery-2.2.3.min.js', integrity='sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=', crossorigin='anonymous')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
     script(src='app.js')

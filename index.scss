@@ -22,6 +22,7 @@ body{
 }
 
 
+
 .iphone{
 	max-width: 100%;
 }
@@ -37,6 +38,7 @@ body{
 	border-radius: 6px;
 	padding: 10px 0;
 	text-align: center;
+
 }
 .titulo{
 	font-family: 'Oleo Script', cursive;
@@ -73,4 +75,78 @@ body{
 }
 .landing{
 	margin:30px auto;
+}
+
+$avatar-size : 48px;
+.avatar{
+	width: $avatar-size;
+	height: $avatar-size;
+	border-radius: 50%;
+	float: left;
+	margin-right: 12px;
+
+}
+
+.card .username{
+	color:$secondary-color;
+}
+.card small.time{
+	line-height:$avatar-size;
+
+}
+
+.card p{
+	padding: 20px 0;
+}
+.card .likes{
+	line-height:30px;
+	margin-left:12px;
+}
+.card i{
+	font-size:30px;
+}
+
+
+.card .fa-heart-o{
+	color:$secondary-color;
+}
+.card .fa-heart{
+	color:#f44336;
+	display:none;
+}
+
+.card.liked {
+	.fa-heart{
+		display:block;
+	}
+	
+	.fa-heart-o{
+		display: none;
+	}
+}
+
+.form-upload{
+
+	span, button{
+		color: white;
+	}
+	.fileUpload{
+		position:relative;
+		overflow: hidden;
+		margin: 10px;
+
+		input{
+			position:absolute;
+			top:0;
+			right: 0;
+			bottom:0;
+			margin: 0;
+			padding:0;
+			font-size: 20px;
+			cursor: pointer;
+			opacity: 0;
+			filter: alpha(opacity=0);
+		}
+
+	}
 }
